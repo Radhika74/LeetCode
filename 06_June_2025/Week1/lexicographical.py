@@ -12,7 +12,6 @@ class Solution:
             rootB = find(b)
             if rootA == rootB:
                 return
-            # always attach the larger to the smaller to keep lex smallest
             if rootA < rootB:
                 parent[rootB] = rootA
             else:
