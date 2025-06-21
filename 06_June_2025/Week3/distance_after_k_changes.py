@@ -11,7 +11,7 @@ class Solution:
                 east += 1
             elif it == "W":
                 west += 1
-            times1 = min(north, south, k) 
+            times1 = min(north, south, k)
             times2 = min(
                 east, west, k - times1
             ) 
