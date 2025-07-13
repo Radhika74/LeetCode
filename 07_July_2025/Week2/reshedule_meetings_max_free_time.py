@@ -28,3 +28,4 @@ class Solution:
             else:
                 ans=max(ans,free[i]+free[i+1])
         return ans
+        
