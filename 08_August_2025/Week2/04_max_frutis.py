@@ -34,4 +34,4 @@ class Solution:
             elif window - n + 3 + step > 1:
                 window -= 1
 
-        return total + right_path[0] + bottom_path[0]
+        return total + right_path[0] + bottom_path[0]05
