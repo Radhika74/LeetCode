@@ -1,4 +1,4 @@
-MOD = 1_000_000_007
+MOD = 1_000_000_00703
 class Solution:
     def numberOfWays(self, n: int, x: int) -> int:
         powers=[]
