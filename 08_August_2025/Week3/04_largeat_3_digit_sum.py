@@ -1,14 +1,9 @@
-class Solution {
-    public String largestGoodInteger(String num) {
-        String ans="";
-        for(int i=0; i+2<num.length();i++){
-            if (num.charAt(i) == num.charAt(i + 1) && num.charAt(i) == num.charAt(i + 2)){
-                String triplet = num.substring(i, i + 3);
-                if (triplet.compareTo(ans) > 0) {
-                    ans = triplet;
-                }
-            }
-        }  
-        return ans;
-    }
-}
+class Solution:
+    def largestGoodInteger(self, num: str) -> str:
+        ans = ""
+        for i in range(len(num) - 2):
+            if num[i] == num[i + 1] == num[i + 2]:
+                triplet = num[i:i + 3]
+                if triplet > ans:
+                    ans = triplet
+        return ans
