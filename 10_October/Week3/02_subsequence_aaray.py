@@ -6,6 +6,6 @@ class Solution:
                 cur+=1
             else:
                 prev, cur = cur, 1
-            if (cur>=k and prev>=k) or cur >=k:
+            if (cur>=k and prev>=k) or cur >=k2:
                 return True
         return False
