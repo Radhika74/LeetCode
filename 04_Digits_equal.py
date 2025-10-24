@@ -1,5 +1,5 @@
 class Solution(object):
-    def hasSameDigits(self, s):
+    def hasSameDigit(self, s):
         i = 0
         res = ""
         while len(s) > 2 and i < len(s) - 1:
