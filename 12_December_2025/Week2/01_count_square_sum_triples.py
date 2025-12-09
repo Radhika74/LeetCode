@@ -10,3 +10,4 @@ class Solution:
                 if c * c == c_square and c <= n:
                     count += 1
         return count
+02
