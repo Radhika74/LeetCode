@@ -16,4 +16,5 @@ class Solution:
         if neg_count%2 == 1:
             total_sum -= 2*mini
         
-        return total_sum
+        return total_sum 
+    
