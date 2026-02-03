@@ -18,4 +18,4 @@ class Solution:
                 if d2<dist[v]:
                     dist[v]=d2
                     heapq.heappush(pq,(d2, v))
-        return -1
+        return -103
